@@ -1,0 +1,7 @@
+ticker,sector,metric,value,unit,currency,source,as_of
+DEMO,Industrials,revenue,1000000000,currency,USD,Synthetic educational fixture - not a real security,2026-11-01
+DEMO,Industrials,fcff,100000000,currency,USD,Synthetic educational fixture - not a real security,2026-11-01
+DEMO,Industrials,cash,150000000,currency,USD,Synthetic educational fixture - not a real security,2026-11-01
+DEMO,Industrials,debt,200000000,currency,USD,Synthetic educational fixture - not a real security,2026-11-01
+DEMO,Industrials,shares,10000000,shares,USD,Synthetic educational fixture - not a real security,2026-11-01
+DEMO,Industrials,price,100,per_share,USD,Synthetic educational fixture - not a real security,2026-11-01
