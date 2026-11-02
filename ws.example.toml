@@ -1,0 +1,32 @@
+# Copy to ws.toml and customize. Dates in CSV must reflect the actual data.
+ollama_host = "http://localhost:11434"
+data_file = "examples/financials.csv"
+num_ctx = 16384
+max_output_tokens = 1536
+token_budget = 100000
+wall_clock_seconds = 1800
+timeout_seconds = 600
+concurrency = 1
+temperature = 0.0
+seed = 42
+keep_alive = "5m"
+retries = 2
+expiry_hours = 24
+max_data_age_days = 120
+terminal_growth_bound = 0.03
+senior_approval_enabled = false
+DANGEROUS_ENABLE_REAL_EXECUTION = false
+initial_cash = 100000
+currency = "USD"
+max_position_size = 0.10
+max_sector_exposure = 0.30
+cash_floor = 0.10
+
+[analyst]
+model = "llama3.1:8b"
+[risk]
+model = "qwen2.5:7b"
+[pm]
+model = "llama3.1:8b"
+[senior]
+model = "qwen2.5:7b"
